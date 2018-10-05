@@ -1,0 +1,79 @@
+/*All devices and mobile phone*/
+
+.home{
+	width:100%;
+	
+		// margin:auto;
+
+	.image{
+		margin:auto;
+		width:95%;
+		padding-top:1em;
+		img{
+			width:100%;
+			// margin:auto;
+		}
+	}
+}
+
+
+/*for small tablet - inclusive*/
+
+@media only screen and (min-width : 40em) {
+	
+	.home{
+		display:flex;
+		flex-wrap: wrap;
+		width:90%;
+		margin:auto;
+
+		.image{
+			flex: 1 0 40%;
+			padding:0.5em;
+			// margin:auto;
+			margin-top:0;
+			margin-bottom:0;
+			height:100%;
+			img{
+				
+			}
+		}
+	}
+
+	
+
+
+}
+
+
+
+
+/*for tablet - inclusive*/
+
+@media only screen and (min-width : 60em) {
+
+	.home{
+
+			.image{
+				flex: 1 0 30%;
+				padding:1em;
+			}
+	}
+
+}
+
+
+
+/*for destop - inclusive*/
+
+@media only screen and (min-width : 80em) {
+
+	.home{
+
+			.image{
+				flex: 1 0 20%;
+				padding:1em;
+			}
+	}
+
+}

@@ -3,7 +3,7 @@
 
 @import "../node_modules/bootstrap/scss/functions";
 @import 'modules/base';
-@import 'modules/custom';
+// @import 'modules/custom';
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/mixins";
 @import "../node_modules/bootstrap/scss/root";
@@ -38,10 +38,13 @@
 @import "../node_modules/bootstrap/scss/carousel";
 @import "../node_modules/bootstrap/scss/utilities";
 @import "../node_modules/bootstrap/scss/print";
+@import 'modules/custom';
+@import 'modules/button-projects';
 @import "modules/navigation";
 @import "modules/hero";
 @import "modules/footer";
-@import "modules/upcomingEvents";
-@import "modules/login";
-@import 'modules/popular';
-@import 'modules/maparea';
+// @import "modules/upcomingEvents";
+// @import "modules/login";
+@import 'modules/header';
+@import 'modules/masonry';
+@import 'modules/home-page';

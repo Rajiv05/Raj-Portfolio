@@ -30,7 +30,14 @@ gulp.task('sass:watch', function () {
   	gulp.watch("./*.html").on('change', browserSync.reload);
 });
 
-
+gulp.task('jshint', function () {
+    return gulp.src([
+      '../src/app/scripts/**/*.js',
+      '!../src/app/scripts/**/*.spec.js'
+    ])
+      .pipe(plugins.jshint())
+      .pipe(plugins.jshint.reporter('default'));
+  });
 
 
 
