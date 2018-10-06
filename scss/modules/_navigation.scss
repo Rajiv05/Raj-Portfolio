@@ -97,6 +97,10 @@ nav {
 	z-index: 100;
 }
 
+.btn{
+	font-size:1.3em;
+}
+
 
 
 /*tablet */
@@ -206,7 +210,7 @@ nav {
 	.pure-menu-horizontal{
 		position: fixed;
 		top: 0;
-		left: 38%;
+		left: 37%;
 		width: 60%;
 		height:5.5%;
 		transform: translate(0%,0%);
@@ -245,6 +249,16 @@ nav {
 	    padding-bottom:0.8em;
 	    /*background-color: white;*/
 
+	}
+
+
+	.btn{
+		font-size:1em;
+		margin-bottom:none;
+
+		&:hover{
+			color:grey !important;
+		}
 	}
 
 	

@@ -10,7 +10,7 @@
 		padding:1em 10em 1em 0em;
 		margin-left:1em;
 		margin-top:4em;
-		height:10%;
+		// height:50vh;
 		display:block;
 		// background-color:red;
 		// border:1px black solid;
@@ -114,9 +114,10 @@
 		list-style-type: none;
 		text-align: center;
 		padding: 1em 1em;
-		padding-left:.5em;
+		// padding-left:.5em;
 		height: 0;
 		margin: 0;
+		padding-left: 0;
 		overflow: hidden;
 		opacity: 1;
 
@@ -167,6 +168,11 @@
 		height:5.5%;
 		transform: translate(0%,0%);
 		font-size: 0.5em;
+		// margin-left:5%;
+		margin-left:0em;
+		// padding-left:0em;
+		padding-left:0em;
+		margin:auto;
 
 		&.background-fixed{
 		    background-color:black;
@@ -192,14 +198,34 @@
 
 	.pure-menu-item1 a:active{
 	    color:blue;
+	    border-bottom: 0.2em blue solid;
 	    /*background-color: white;*/
 
 	}
 
-	.pure-menu-horizontal1 .active1{
+	// .pure-menu-horizontal1 .first{
+	//     border-bottom: 0.2em blue solid;
+	//     padding-bottom:0.8em;
+	//     margin-left:0;
+	//     background-color: transparent;
+
+	// }
+
+	.active3{
+	    border-bottom: 0.2em blue solid !important;
+	    padding-bottom:0.8em;
+	    margin-left:0em !important;
+	    border-radius:0em;
+	    padding-left:0em;
+	    /*background-color: white;*/
+
+	}
+
+	.active2{
 	    border-bottom: 0.2em blue solid;
 	    padding-bottom:0.8em;
 	    margin-left:0;
+	    border-radius:0em;
 	    /*background-color: white;*/
 
 	}
@@ -284,6 +310,7 @@
 	.pure-menu-horizontal{
 		font-size: 0.6em;
 		top:2em;
+		// width: 90%;
 	}
 }
 
@@ -298,7 +325,7 @@
 		// padding-top:1em;
 
 		p{
-			width:30%6
+			width:30%
 		}
 	}
 
