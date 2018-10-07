@@ -2,18 +2,34 @@
 
 .scene {
   // padding-top:2em;
-  perspective: 1000;
-  width: 5em;
+  perspective: 100000000;
+  width: 100%;
   // position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 0;
+  left: 0;
+  position:relative;
   // margin-left: 10em;
-  margin-top: -3em;
-  Margin-right:0.2em;
-  float:right;
+  margin-top: -1.9em;
+  // Margin-right:0.2em;
+  margin:auto;
+  // vertical-align-item:center;
+  align:center;
+  // position:absolute;
+  // translate:(50% 50%);
+  margin-left:0em;
+  padding-left:0em;
+  // align-items:center;
+  // display:flex;
+  // justify-content:center;
+  transform: translate(0px, -1em)
 }
 
 .cube {
+  top: 0;
+  left: 2.5%;
+  margin-top: -1.9em;
+  position:absolute;
+  translate:(20% 50%);
   color: #ccc;
   cursor: pointer;
   font-family: 'Roboto', sans-serif;
@@ -21,8 +37,8 @@
   transition: all 0.85s cubic-bezier(.17,.67,.14,.93);
   transform-style: preserve-3d;
   transform-origin: 100% 50%;
-  width: 6em;
-  height: 3em;
+  width: 0em;
+  // height: 3em;
   
   &:hover {
     transform: rotateX(-90deg);
@@ -34,10 +50,10 @@
   position: absolute;
   display: inline-block;
   height: 4em;
-  width: 8em;
+  width: 10em;
   text-align: center;
   text-transform: uppercase;
-  padding-top: 1.5em;
+  // padding-top: 1.5em;
 }
 
 .top {
@@ -45,7 +61,8 @@
   background: white;
   color: #222229;
   transform: rotateX(90deg) translate3d(0, 0, 2em);
-  font-size:0.8em;
+  font-size:0.6em;
+  font-weight:100;
   // border-radius:10em;
 
 
@@ -57,21 +74,34 @@
   color: white;
   box-shadow: inset 0 0 0 2px #fff;
   transform: translate3d(0, 0, 2em);
-  font-size:0.8em;
+  font-size:0.6em;
+  font-weight:100;
   // border-radius:10em;
 
 }
 
+.front1 {
+  color:black;
+  // box-shadow: inset 0 0 0 2px black;
+}
 
-@media only screen and (min-width : 40em) {
+
+@media only screen and (min-width : 60em) {
 
 .scene{
-margin-right:2em;
-margin-top:-3.8em;
+// margin-right:2em;
+// margin-top:-2em;
+// margin-bottom:4em;
+
 }
 
 .cube{
   font-size:1em;
+  margin-top: -4em;
+}
+
+.side{
+  // width: 9.25em;
 }
 
 .top{
@@ -81,5 +111,23 @@ margin-top:-3.8em;
 .front{
 
 }
+
+}
+
+@media only screen and (min-width : 60em) {
+
+.scene{
+// margin-right:2em;
+// margin-top:-2em;
+// margin-bottom:4em;
+
+}
+
+.cube{
+  left: 45%;
+  font-size:1em;
+  // margin-top: -4em;
+}
+
 
 }

@@ -101,8 +101,25 @@ nav {
 	font-size:1.3em;
 }
 
+.pure-menu-link1{
+	border-radius:0em;
+	border-left:0em;
+	border-right:0em;
+	margin:0;
+	padding-bottom:0.85em;
 
+	a{
+		border-radius:0em;
+	}
+}
 
+li{
+	border-radius:0em;
+}
+
+ul{
+	border-radius:0em;
+}
 /*tablet */
 
 @media only screen and (min-width : 40em) {
