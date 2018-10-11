@@ -132,7 +132,7 @@
 			margin: 0em 0em;
 			text-transform: uppercase;
 			font-weight: 400;
-			border-bottom: 1px #ADADAD dashed;
+			// border-bottom: 1px #ADADAD dashed;
 
 			&:nth-child(6){
 				border: none;
@@ -229,6 +229,7 @@
 	    margin-left:0em !important;
 	    border-radius:0em;
 	    padding-left:0em;
+	    padding-top:10em;
 	    /*background-color: white;*/
 
 	}
@@ -321,9 +322,17 @@
 
 	.pure-menu-horizontal{
 		font-size: 0.6em;
-		top:2em;
+		// top:2em;
 		// width: 90%;
+		padding-right:3%;
 	}
+
+.active3{
+
+    padding-top:6em !important;
+    /*background-color: white;*/
+
+}
 }
 
 /*for tablet - inclusive*/

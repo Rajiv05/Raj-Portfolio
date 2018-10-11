@@ -2,21 +2,23 @@
 
 
 
-
+#parent{
+    min-height:100vh;
+  }
 
 
 /* The Masonry Container */
 .masonry, .masonry1 {
   margin:  auto;
   max-width: 95%;
-  column-gap: .5em;
+  column-gap: 1em;
   height:100%;
 
   .item, .item1{
     position: relative;
     background: #fff;
     // padding: 0.2em;
-    margin: 0 0 .5em;
+    margin: 0 0 1em;
     max-width:100%;
     
     // align-items:left;

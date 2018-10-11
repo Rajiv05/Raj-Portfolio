@@ -5,10 +5,12 @@ nav {
 	position: relative;
 	display:flex;
 	justify-content:flex-start;
+
 	// padding-top: 20em;
 }
 
 .logo {
+	// background-color:white;
 	text-align: left;
 	font-size: 10px;
 	min-width: 2em;
@@ -19,6 +21,7 @@ nav {
 	// margin-bottom: .6em;
 	
 	a {
+		// background-color:white;
 		font-family: $primaryFont;
 		text-decoration: none;
 		color: #000;
@@ -32,6 +35,7 @@ nav {
 		z-index:100;
 
 		img {
+			// background-color:white;
 			width: 100%;
 			// margin: auto;
 			// max-width: 10em;
@@ -79,6 +83,7 @@ nav {
 }
 
 .bars {
+	// background-color:white;
 	position: absolute;
 	top: .4em;
 	right: .2em;
@@ -88,13 +93,75 @@ nav {
 	
 }
 
-.nav-open {
-	height: 100vh !important;
-	// margin-top: 1.5em;
-	opacity: 1;
-	margin: 0 auto;
+.nav-body{
+	// margin-top:50%;
+	// padding-bottom:4em;
 	width: 100%;
-	z-index: 100;
+
+	.mobile-nav{
+		z-index: 90000;
+		position: fixed;
+		margin-top:0em;
+		// height:100vh;
+		width:55%;
+		left:50%;
+
+	}
+
+}
+
+.nav-open{
+	text-align:right;
+	height: 100% !important;
+	// height:100vh;
+	// position:relative;
+	padding-right:2em;
+	// line-height:1em;
+	background-color:black;
+	// color:white;
+	// border:0.1px grey solid;
+	// border-bottom:4px black solid;
+	// border-top:4px black solid;
+	// z-index: 9000;
+	opacity: 1;
+    z-index: 100;
+	padding-top:20%;
+	display:block;
+	// align-content:left;
+
+	li{
+		flex: 0 0 80%;
+		line-height:2em !important;
+		// font-color:white;
+		// height:0.1em;	
+	}
+
+	a{
+
+		text-align:left;
+
+		color:white!important;
+		font:$oswaldFont;
+		font-size:0.8em;
+		font-weight:600;
+	}
+}
+
+.pure-menu-item{
+}
+
+.fa-times{
+	position:absolute;
+	color:white;
+	// min-width:20% !important;
+	// margin:auto;
+	// margin-right:8em !important;
+	right:20% !important;
+	top:.3em;
+	// margin-top:-1em;
+	// padding-right:1em;
+	// z-index: 10000;
+	// border:1px red solid;
 }
 
 .btn{
@@ -120,6 +187,15 @@ li{
 ul{
 	border-radius:0em;
 }
+
+.heading2{
+
+	h2{
+		padding-top:2em;
+	}
+}
+
+
 /*tablet */
 
 @media only screen and (min-width : 40em) {
@@ -143,7 +219,7 @@ ul{
 
 
 		.logo {
-			
+			z-index:100000000000000;
 			margin-left: 5%;
 			
 
@@ -153,7 +229,7 @@ ul{
 			}
 
 			img {
-				margin-top:2em;
+				margin-top:1.5em;
 				max-width:2.5em;
 				// position:fixed;
 			}
@@ -197,9 +273,10 @@ ul{
 		}
 		.desktop-nav {
 			// flex: 0 0 70%;
+			top:0;
 			height: 100%;
 			display: flex !important;
-			justify-content: center;
+			// justify-content: center;
 			justify-content: flex-end;
 			align-items: center;
 			transition: none;
@@ -226,10 +303,11 @@ ul{
 
 	.pure-menu-horizontal{
 		position: fixed;
+		background-color: white;
 		top: 0;
-		left: 37%;
-		width: 60%;
-		height:5.5%;
+		left: 0;
+		width: 100%;
+		// height:5.5%;
 		transform: translate(0%,0%);
 		font-size: 0.8em;
 
