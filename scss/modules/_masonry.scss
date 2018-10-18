@@ -1,6 +1,8 @@
 /* Box-sizing reset: http://w3bits.com/?p=3225 */
 
-
+.filter{
+  transition-duration: 5s;
+}
 
 #parent{
     min-height:100vh;
