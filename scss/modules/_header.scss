@@ -104,10 +104,10 @@
 			transform: translate(-50%, 15%);
 
 			.about-image{
-				// border-radius:1000em;
-				width:80%;
+				border-radius:100em;
+				width:60%;
 				// margin:auto;
-				padding-bottom:3em;
+				margin-bottom:3em;
 			}			
 
 			h2{
@@ -332,7 +332,7 @@
 			margin:auto;
 			text-align:center;
 			// font-style: italic;
-
+			
 
 			h2{
 				font-size:0.8em;
@@ -394,6 +394,11 @@
 .description1{
 	width:40% !important;
 
+}
+
+.about-image{
+	max-width:20em;
+	margin-top:-5em;
 }
 
 
