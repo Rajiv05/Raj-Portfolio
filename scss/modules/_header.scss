@@ -135,17 +135,27 @@
 		}
 	}
 
-	.web1{
+	.web01{
 		width:100%;
 		// height:100vh;
 		// margin:auto;
-
-		img{
-			width:100%;
-			// height:100vh;
-			// margin:auto;
-		}
 	}
+	.web02{
+		width:100%;
+		// height:100vh;
+		// margin:auto;
+	}
+	.web03{
+		width:100%;
+		// height:100vh;
+		// margin:auto;
+	}
+
+	.web-images{
+		width:100%;
+	}
+
+	
 
 	.my-description{
 		z-index:1000;
@@ -176,7 +186,7 @@
 		margin-left:0;
 		overflow: hidden;
 		opacity: 1;
-		font-size:0.7em;
+		font-size:0.32em !important;
 		font-weight:800;
 
 		li {
@@ -233,7 +243,7 @@
 		// padding-left:0em;
 		padding-left:0em;
 		margin:auto;
-		font-size:0.5em;
+		// font-size:1.5em;
 
 		&.background-fixed{
 		    background-color:black;
@@ -370,7 +380,7 @@
 		width: 90% !important;
 		// left: 5em;
 		margin:auto;
-		font-size: 1em !important;
+		font-size: 2.2em !important;
 	}
 
 	.pure-menu-horizontal{

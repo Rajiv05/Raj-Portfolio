@@ -15,12 +15,12 @@ $(function() {
                 .data('nav', 'open');
 
             $('.bars>i').first().removeClass('fas fa-bars')
-                .addClass('fas fa-times');
+                .addClass('fas fa-minus');
 
         } else {
             $('.navigation').removeClass('nav-open')
                 .data('nav', 'close');
-            $('.bars>i').removeClass('fas fa-times')
+            $('.bars>i').removeClass('fas fa-minus')
                 .addClass('fas fa-bars');
 
         }
