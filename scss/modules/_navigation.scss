@@ -140,10 +140,10 @@ nav {
 
 		text-align:left;
 
-		color:white!important;
+		color:white !important;
 		font:$oswaldFont;
 		font-size:0.8em;
-		font-weight:600;
+		font-weight:lighter;
 	}
 }
 
@@ -174,7 +174,8 @@ nav {
 	border-right:0em;
 	margin:0;
 	padding-bottom:0.85em;
-	font-size:1.5em;
+	// font-size:1em;
+	// border-bottom: 2px blue solid;
 
 	a{
 		border-radius:0em;
