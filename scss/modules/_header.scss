@@ -62,11 +62,15 @@
 
 		h2{
 			font-size:0.8em;
+			width:70%;
+			margin:auto;
+			padding-bottom:1em;
 		}
 		.sub-heading{
 			font-size:0.7em;
 			color:grey;
-			margin-bottom:0.2em;
+			// margin-bottom:0.2em;
+			padding-bottom:1em;
 		}
 
 		.photographer{
@@ -136,19 +140,47 @@
 	}
 
 	.web01{
+		
 		width:100%;
-		// height:100vh;
+		// height:100%;
 		// margin:auto;
+
+		// .for-images{
+		// 	height:50vh;
+		// 	background-image: url("../assets/images/Web-1/ipad&iphone.png");
+		// 	background-position: center;
+  //    		background-repeat: no-repeat;
+  //    		background-size: cover;
+  //    		background-size: 30em !important;
+		// }
 	}
 	.web02{
 		width:100%;
 		// height:100vh;
 		// margin:auto;
+
+		// .for-images{
+		// 	height:50vh;
+		// 	background-image: url("../assets/images/Web-2/Macbook.jpg");
+		// 	background-position: center;
+  //    		background-repeat: no-repeat;
+  //    		background-size: cover;
+  //    		background-size: 30em !important;
+		// }
 	}
 	.web03{
 		width:100%;
 		// height:100vh;
 		// margin:auto;
+
+		// .for-images{
+		// 	height:50vh;
+		// 	background-image: url("../assets/images/iphone-x/mactest.jpg");
+		// 	background-position: center;
+  //    		background-repeat: no-repeat;
+  //    		background-size: cover;
+  //    		background-size: 30em !important;
+		// }
 	}
 
 	.web-images{

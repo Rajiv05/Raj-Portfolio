@@ -36,12 +36,13 @@
 
     .web-heading{
       font-size:1.5em;
+      padding-bottom:1em;
 
       &:after {
         content: "";
         display: block;
         width: 2em;
-        margin-top: 1em  ;
+        margin: 0.5em 0;
         border-bottom:2px blue solid;
       }
     }
@@ -60,18 +61,20 @@
   }
 
   .web-type{
-    margin-top:-20%;
+    // margin-top:-20%;
     // margin-top:1em;
     padding:2em;
 
     .web-heading{
+      margin-top:-20%;
       font-size:1.5em;
+      padding-bottom:1em;
 
       &:after {
         content: "";
         display: block;
         width: 2em;
-        margin-top: 1em  ;
+        margin: 0.5em 0;
         border-bottom:2px blue solid;
       }
     }
@@ -134,7 +137,7 @@
       padding-top:1em !important;
       padding:4em;
       margin:auto;
-      width:70%;
+      width:100%;
       font-size:0.8em;
     }
   }
@@ -200,12 +203,13 @@
 
     .web-heading{
       font-size:1.5em;
+      padding-bottom:1em;
 
       &:after {
         content: "";
         display: block;
         width: 2em;
-        margin-top: 1em  ;
+        margin: 0.5em 0;
         border-bottom:2px blue solid;
       }
     }
@@ -323,6 +327,7 @@
       display:flex;
       // margin:auto;
       // align-items:center;
+      width:100%;
 
       .feature-heading{
         padding:0em;
@@ -344,7 +349,7 @@
       }
 
     .features{
-      flex:1 0 20%;
+      flex-grow:1 1 60%;
       // margin-top:6em;
       margin:auto;
       width:100%;
@@ -376,10 +381,10 @@
       }
 
       .web-description{
-        height:20em;
+        height:25em;
         padding:1em;
         margin:auto;
-        width:70%;
+        width:90%;
         font-size:0.8em;
         // margin-bottom:10em;
       }

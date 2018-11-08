@@ -11,10 +11,11 @@ nav {
 
 .logo {
 	// background-color:white;
+	z-index:200;
 	text-align: left;
 	font-size: 10px;
-	min-width: 2em;
-	max-width: 2em;
+	min-width: 3em;
+	max-width: 3em;
 	margin-left: 2em;
 	text-transform: uppercase;
 	position:fixed;
@@ -221,16 +222,17 @@ ul{
 
 
 		.logo {
-			z-index:100000000000000;
+			z-index:10000000000000000000 !important;
 			margin-left: 5%;
 			
 
 			a{
-				z-index:100000000000000;
+				z-index:1000000000000000000 !important;
 				// position:fixed;
 			}
 
 			img {
+				z-index:1000000000000000000 !important;
 				margin-top:1.5em;
 				max-width:2.5em;
 				// position:fixed;
