@@ -17,7 +17,8 @@
     "gulp-sourcemaps": "^2.6.4"
   },
   "dependencies": {
-    "mapbox-gl": "^0.48.0"
+    "mapbox-gl": "^0.48.0",
+    "normalize.css": "^8.0.0"
   },
   "repository": {
     "type": "git",

@@ -5,18 +5,21 @@ nav {
 	position: relative;
 	display:flex;
 	justify-content:flex-start;
+	background-color: white;
+	height:4.3em;
+	position: fixed !important;
 
 	// padding-top: 20em;
 }
 
 .logo {
 	// background-color:white;
-	z-index:200;
+	z-index:10000000000000 !important;
 	text-align: left;
 	font-size: 10px;
-	min-width: 3em;
-	max-width: 3em;
-	margin-left: 2em;
+	min-width: 2em;
+	max-width: 2em;
+	margin: 2em;
 	text-transform: uppercase;
 	position:fixed;
 	// margin-bottom: .6em;
@@ -33,14 +36,15 @@ nav {
 		// margin-top:2em;
 		// transition: 1s ease;
 		// margin-left:8em;
-		z-index:100;
+		z-index:10000000000000 !important;
 
 		img {
 			// background-color:white;
 			width: 100%;
+			z-index:10000000000000 !important;
 			// margin: auto;
 			// max-width: 10em;
-			margin-top:2em;
+			// margin-top:2em;
 			// padding-left:1em;
 		}
 	}
@@ -86,12 +90,12 @@ nav {
 .bars {
 	// background-color:white;
 	position: absolute;
-	top: .4em;
-	right: .2em;
-	margin: .5em;
+	// top: .4em;
+	right: .8em;
+	margin-top: 1em !important;
+	// margin-left:.8em;
 	font-size: 1.2em;
 	color: black;
-	
 }
 
 .nav-body{
@@ -166,6 +170,7 @@ nav {
 }
 
 .btn{
+	padding-left:.5em;
 	font-size:1.3em;
 }
 
@@ -219,6 +224,9 @@ ul{
 		transition: none;
 		align-content: center;
 		padding-top: 0;
+		background-color: white;
+		height:4.5em;
+		position: fixed !important;
 
 
 		.logo {
@@ -308,7 +316,7 @@ ul{
 
 	.pure-menu-horizontal{
 		position: fixed;
-		background-color: white;
+		// background-color: white;
 		top: 0;
 		left: 0;
 		width: 100%;
@@ -355,6 +363,7 @@ ul{
 	.btn{
 		font-size:1em;
 		margin-bottom:none;
+		padding-left:1em;
 
 		&:hover{
 			color:grey !important;

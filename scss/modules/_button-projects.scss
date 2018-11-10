@@ -9,13 +9,13 @@
     // position: absolute;
     top: 0;
     left: 0;
-    position:relative;
+    position: relative;
     // margin-left: 10em;
     margin-top: -1.9em;
     // Margin-right:0.2em;
-    margin:auto;
+    margin: auto;
     // vertical-align-item:center;
-    align:center;
+    align: center;
     // position:absolute;
     // translate:(50% 50%);
     margin-left:0em;
@@ -29,8 +29,8 @@
   .cube {
     top: 0;
     left: 2.5%;
-    margin-top: -2.2em;
-    position:absolute;
+    margin-top: -1.6em;
+    position: absolute;
     translate:(20% 50%);
     color: #ccc;
     cursor: pointer;
@@ -55,19 +55,19 @@
   }
 
   .front {
-    padding-top:0.75em;
+    padding-top:0.8em;
     background: transparent;
     color: black;
     box-shadow: inset 0 0 0 2px black;
     transform: translate3d(0, 0, 2em);
-    font-size:0.8em;
+    font-size:0.6em;
     font-weight:400;
     // border-radius:10em;
 
   }
 
   .front1 {
-    color:black;
+    color: black;
     // box-shadow: inset 0 0 0 2px black;
   }
 }
@@ -81,13 +81,13 @@
     // position: absolute;
     top: 0;
     left: 0;
-    position:relative;
+    position: relative;
     // margin-left: 10em;
     margin-top: -1.9em;
     // Margin-right:0.2em;
-    margin:auto;
+    margin: auto;
     // vertical-align-item:center;
-    align:center;
+    align: center;
     // position:absolute;
     // translate:(50% 50%);
     margin-left:0em;
@@ -101,8 +101,8 @@
   .cube {
     top: 0;
     left: 2.5%;
-    margin-top: -2.2em;
-    position:absolute;
+    margin-top: -1.6em;
+    position: absolute;
     translate:(20% 50%);
     color: #ccc;
     cursor: pointer;
@@ -127,19 +127,19 @@
   }
 
   .front {
-    padding-top:0.75em;
+    padding-top:0.8em;
     background: transparent;
     color: black;
     box-shadow: inset 0 0 0 2px black;
     transform: translate3d(0, 0, 2em);
-    font-size:0.8em;
+    font-size:0.6em;
     font-weight:400;
     // border-radius:10em;
 
   }
 
   .front1 {
-    color:black;
+    color: black;
     // box-shadow: inset 0 0 0 2px black;
   }
 }
@@ -153,13 +153,13 @@
     // position: absolute;
     top: 0;
     left: 0;
-    position:relative;
+    position: relative;
     // margin-left: 10em;
     margin-top: -1.9em;
     // Margin-right:0.2em;
-    margin:auto;
+    margin: auto;
     // vertical-align-item:center;
-    align:center;
+    align: center;
     // position:absolute;
     // translate:(50% 50%);
     margin-left:0em;
@@ -173,8 +173,8 @@
   .cube {
     top: 0;
     left: 2.5%;
-    margin-top: -2.2em;
-    position:absolute;
+    margin-top: -1.6em;
+    position: absolute;
     translate:(20% 50%);
     color: #ccc;
     cursor: pointer;
@@ -199,44 +199,49 @@
   }
 
   .front {
-    padding-top:0.75em;
+    padding-top:0.8em;
     background: transparent;
     color: black;
     box-shadow: inset 0 0 0 2px black;
     transform: translate3d(0, 0, 2em);
-    font-size:0.8em;
+    font-size:0.6em;
     font-weight:400;
     // border-radius:10em;
 
   }
 
   .front1 {
-    color:black;
+    color: black;
     // box-shadow: inset 0 0 0 2px black;
   }
 }
 
+
 .web-1-button{
-  z-index:100;
-  position:fixed !important;
+  z-index:200;
+  position: fixed !important;
   // position:absolute;
   // float:right;
   width:100%;
-  margin-top:1.55em;
-  padding-right:1.55em;
-  display:flex;
-  justify-content:flex-end;
+  
+  padding-right:1em;
+  display: flex;
+  justify-content: flex-end;
+  // background-color: white;
+  height:0em;
   // left:65%;
 
   a{
+    margin-top:.3em;
     text-decoration: none !important;
   }
   
 
 
   .front {
-    padding-top:0.35em;
-    padding-bottom:0.5em;
+    align-items: center !important;
+    padding-top:0.3em;
+    padding-bottom:0.45em;
     padding-left:1em;
     padding-right:1em;
     background: transparent;
@@ -246,7 +251,7 @@
     font-size:0.8em;
     font-weight:400;
     border-radius:10em;
-    text-transform:uppercase;
+    text-transform: uppercase;
   }
 }
 
@@ -334,8 +339,10 @@
 
 .web-1-button{
   position:fixed;
-  margin-top:1.6em;
+  margin-top:-2.85em;
+  // height:4.5em;
   // margin-left:16.5%;
+  // background-color: transparent;
   .scene{
   // margin-right:2em;
   // margin-top:-2em;
