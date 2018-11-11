@@ -1,7 +1,7 @@
 /*All devices and mobile phone*/
 
 .body{
-	margin-top:1em;
+	// margin-top:1em;
 	
 
 	.heading{
@@ -9,7 +9,7 @@
 		margin:auto;
 		padding:1em 10em 1em 0em;
 		margin-left:1em;
-		margin-top:4em;
+		margin-top:5.8em;
 		// height:50vh;
 		display:block;
 		// background-color:red;
@@ -47,6 +47,20 @@
 			// margin:auto;
 			
 			// position:absolute;
+		}
+	}
+
+	.banner{
+		
+
+		
+	}
+
+	.section2{
+
+		h2{
+			// padding-top: 0em !important;
+			// margin-top: 0em !important;
 		}
 	}
 
@@ -261,7 +275,7 @@
 		}
 	}
 
-	.pure-menu-horizontal1{
+	.pure-menu-horizontal1{ 
 		// position: fixed;
 		// top:0;
 		// left: 5em;
@@ -274,15 +288,15 @@
 		margin-left:0em;
 		// padding-left:0em;
 		padding-left:0em;
-		margin:auto;
+		margin: auto;
 		font-size:0.46em;
 
 		&.background-fixed{
-		    background-color:black;
+		    background-color: black;
 		    height:3em;
 
 			a{
-				color:black;
+				color: black;
 				// font-size:0.7em;
 
 			}
@@ -377,6 +391,73 @@
 				width:50%;
 			}
 
+		}
+
+		
+		.banner{
+			height:70vh !important;
+
+			// background-color: black;
+			background-image: url("../assets/images/Skills/Photography/Photography2.jpg");
+	        background-position: center;
+	        background-repeat: no-repeat;
+	        background-size: cover;
+			// margin-top:-2em;
+			height:70vh !important;
+			position: relative;
+
+			&:before {
+			  content: "";
+			  position: absolute;
+			  left: 0; right: 0;
+			  top: 0; bottom: 0;
+			  background: rgba(0,0,0,.9);
+			}
+
+			.heading-type-body{
+				// padding-top: none !important;
+				padding-left:6em;
+				margin-top:5% !important;
+				position: absolute;
+
+				h2{
+					color: white !important;
+					border-bottom: none;
+
+					&:after {
+			          content: "";
+			          display: block;
+			          width: 2em;
+			          margin: 0.5em 0;
+			          border-bottom:2px blue solid;
+			      }
+				}
+
+				h4{
+					color: white !important;
+					border-bottom: none;
+
+					&:after {
+			          content: "";
+			          display: block;
+			          width: 2em;
+			          margin: 0.5em 0;
+			          border-bottom:2px blue solid;
+			      	}
+				}
+
+				a{
+					// padding-top:2em;
+
+					i{
+						font-size:0.8em;
+						// padding-top:3em;
+						color: white;
+					}
+				}
+
+				
+			}
 		}
 
 		.heading-1{

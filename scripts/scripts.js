@@ -57,7 +57,14 @@ $(function() {
         e.preventDefault();
 
         var sTarget = $(this).data('to');
-        var targetOffsetTop = $(sTarget).offset().top;
+        var sOffset = $(this).data('offset');
+
+        console.log(sOffset);
+
+        if(typeof sOffset == "undefined"){
+            sOffset = 0;
+        }
+        var targetOffsetTop = $(sTarget).offset().top - sOffset;
 
         $('html,body').animate({scrollTop:targetOffsetTop},1000)
     });
