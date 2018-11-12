@@ -52,6 +52,9 @@
 
 	.banner{
 		
+		.social-icons{
+			visibility: hidden;
+		}
 
 		
 	}
@@ -379,14 +382,6 @@
 			width:90%;
 			margin:auto;
 
-
-			h2{
-				font-size:2em;
-			}
-			h4{
-				font-size:2em;
-
-			}
 			p{
 				width:50%;
 			}
@@ -395,15 +390,16 @@
 
 		
 		.banner{
-			height:70vh !important;
+			// height:70vh !important;
 
 			// background-color: black;
-			background-image: url("../assets/images/Skills/Photography/Photography2.jpg");
+			background-image: url("../assets/images/Skills/Photography/DubaiAirport.jpg");
 	        background-position: center;
 	        background-repeat: no-repeat;
 	        background-size: cover;
+	        // background-size: 100%;
 			// margin-top:-2em;
-			height:70vh !important;
+			height:40vh !important;
 			position: relative;
 
 			&:before {
@@ -411,18 +407,19 @@
 			  position: absolute;
 			  left: 0; right: 0;
 			  top: 0; bottom: 0;
-			  background: rgba(0,0,0,.9);
+			  background: rgba(0,0,0,0.5);
 			}
 
 			.heading-type-body{
-				// padding-top: none !important;
-				padding-left:6em;
-				margin-top:5% !important;
 				position: absolute;
+				left: 8em;
+			    top: 50%;
+			    transform: translate(-50%, -50%);
 
 				h2{
 					color: white !important;
 					border-bottom: none;
+					font-size:1.5em;
 
 					&:after {
 			          content: "";
@@ -436,6 +433,9 @@
 				h4{
 					color: white !important;
 					border-bottom: none;
+					padding-bottom: 0em;
+					margin-bottom: 0em;
+					font-size:1.5em;
 
 					&:after {
 			          content: "";
@@ -443,6 +443,7 @@
 			          width: 2em;
 			          margin: 0.5em 0;
 			          border-bottom:2px blue solid;
+			          margin-bottom:0em;
 			      	}
 				}
 
@@ -455,9 +456,31 @@
 						color: white;
 					}
 				}
-
-				
 			}
+
+			.social-icons{
+				visibility: visible;
+				position: absolute;
+				left: 90%;
+			    top: 90%;
+			    transform: translate(-50%, -50%);
+			    width:4.9em;
+
+			    a{
+			    	padding-left:1em;
+
+			    	i{
+			    		font-size:1.5em;
+			    		color: white;
+
+			    		&:hover{
+			    			opacity:0.8;
+			    		}
+			    	}
+			    }
+			}
+
+
 		}
 
 		.heading-1{
@@ -582,6 +605,22 @@
 		p{
 			width:30%
 		}
+	}
+	.banner{
+		height:70vh !important;
+
+		.heading-type-body{
+			left:15em;
+
+			h2{
+				font-size:3em;
+			}
+			h4{
+				font-size:3em;
+
+			}
+		}
+
 	}
 
 	.heading-1{

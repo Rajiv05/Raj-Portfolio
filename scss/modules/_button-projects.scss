@@ -1,218 +1,105 @@
 
 
+
 .web01{
+  width:100%;
+  margin: auto;
+  position: relative;
 
-  .scene {
-    // padding-top:2em;
-    perspective: 100000000;
-    width: 100%;
-    // position: absolute;
-    top: 0;
-    left: 0;
-    position: relative;
-    // margin-left: 10em;
-    margin-top: -1.9em;
-    // Margin-right:0.2em;
-    margin: auto;
-    // vertical-align-item:center;
-    align: center;
-    // position:absolute;
-    // translate:(50% 50%);
-    margin-left:0em;
-    padding-left:0em;
-    // align-items:center;
-    // display:flex;
-    // justify-content:center;
-    transform: translate(0px, -1em);
+  .for-images{
+    height:50vh;
+    background-image: url("../assets/images/Web-1/ipad&iphone.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 30em;
   }
 
-  .cube {
-    top: 0;
-    left: 2.5%;
-    margin-top: -1.6em;
-    position: absolute;
-    translate:(20% 50%);
-    color: #ccc;
-    cursor: pointer;
-    font-family: 'Roboto', sans-serif;
-    /* font-size:0.6em; */
-    transition: all 0.85s cubic-bezier(.17,.67,.14,.93);
-    transform-style: preserve-3d;
-    transform-origin: 100% 50%;
-    width: 0em;
-    // height: 3em;
-  }
 
-  .side {
-    box-sizing: border-box;
+  a{
     position: absolute;
-    display: inline-block;
-    height: 3em;
-    width: 10em;
+    left: 50%;
+    top: 92%;
+    transform: translate(-50%, -50%);
+    width:10em;
+    padding:1em;
     text-align: center;
-    text-transform: uppercase;
-    // padding-top: 1.5em;
-  }
-
-  .front {
-    padding-top:0.8em;
-    background: transparent;
     color: black;
-    box-shadow: inset 0 0 0 2px black;
-    transform: translate3d(0, 0, 2em);
+    border:2px black solid;
     font-size:0.6em;
     font-weight:400;
-    // border-radius:10em;
-
-  }
-
-  .front1 {
-    color: black;
-    // box-shadow: inset 0 0 0 2px black;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    height:3.8em;
+    text-decoration: none !important;
   }
 }
 
 .web02{
+  width:100%;
+  margin: auto;
+  position: relative;
 
-  .scene {
-    // padding-top:2em;
-    perspective: 100000000;
-    width: 100%;
-    // position: absolute;
-    top: 0;
-    left: 0;
-    position: relative;
-    // margin-left: 10em;
-    margin-top: -1.9em;
-    // Margin-right:0.2em;
-    margin: auto;
-    // vertical-align-item:center;
-    align: center;
-    // position:absolute;
-    // translate:(50% 50%);
-    margin-left:0em;
-    padding-left:0em;
-    // align-items:center;
-    // display:flex;
-    // justify-content:center;
-    transform: translate(0px, -1em);
+  .for-images{
+    height:50vh;
+    background-image: url("../assets/images/Web-2/iphone-main1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 30em;
   }
+  
 
-  .cube {
-    top: 0;
-    left: 2.5%;
-    margin-top: -1.6em;
+  a{
     position: absolute;
-    translate:(20% 50%);
-    color: #ccc;
-    cursor: pointer;
-    font-family: 'Roboto', sans-serif;
-    /* font-size:0.6em; */
-    transition: all 0.85s cubic-bezier(.17,.67,.14,.93);
-    transform-style: preserve-3d;
-    transform-origin: 100% 50%;
-    width: 0em;
-    // height: 3em;
-  }
-
-  .side {
-    box-sizing: border-box;
-    position: absolute;
-    display: inline-block;
-    height: 3em;
-    width: 10em;
+    left: 50%;
+    top: 92%;
+    transform: translate(-50%, -50%);
+    width:10em;
+    padding:1em;
     text-align: center;
-    text-transform: uppercase;
-    // padding-top: 1.5em;
-  }
-
-  .front {
-    padding-top:0.8em;
-    background: transparent;
     color: black;
-    box-shadow: inset 0 0 0 2px black;
-    transform: translate3d(0, 0, 2em);
+    border:2px black solid;
     font-size:0.6em;
     font-weight:400;
-    // border-radius:10em;
-
-  }
-
-  .front1 {
-    color: black;
-    // box-shadow: inset 0 0 0 2px black;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    height:3.8em;
+    text-decoration: none !important;
   }
 }
 
 .web03{
+  width:100%;
+  margin: auto;
+  position: relative;
 
-  .scene {
-    // padding-top:2em;
-    perspective: 100000000;
-    width: 100%;
-    // position: absolute;
-    top: 0;
-    left: 0;
-    position: relative;
-    // margin-left: 10em;
-    margin-top: -1.9em;
-    // Margin-right:0.2em;
-    margin: auto;
-    // vertical-align-item:center;
-    align: center;
-    // position:absolute;
-    // translate:(50% 50%);
-    margin-left:0em;
-    padding-left:0em;
-    // align-items:center;
-    // display:flex;
-    // justify-content:center;
-    transform: translate(0px, -1em);
+  .for-images{
+    height:50vh;
+    background-image: url("../assets/images/Web-3/imac2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 40em;
   }
 
-  .cube {
-    top: 0;
-    left: 2.5%;
-    margin-top: -1.6em;
-    position: absolute;
-    translate:(20% 50%);
-    color: #ccc;
-    cursor: pointer;
-    font-family: 'Roboto', sans-serif;
-    /* font-size:0.6em; */
-    transition: all 0.85s cubic-bezier(.17,.67,.14,.93);
-    transform-style: preserve-3d;
-    transform-origin: 100% 50%;
-    width: 0em;
-    // height: 3em;
-  }
 
-  .side {
-    box-sizing: border-box;
+  a{
     position: absolute;
-    display: inline-block;
-    height: 3em;
-    width: 10em;
+    left: 50%;
+    top: 92%;
+    transform: translate(-50%, -50%);
+    width:10em;
+    padding:1em;
     text-align: center;
-    text-transform: uppercase;
-    // padding-top: 1.5em;
-  }
-
-  .front {
-    padding-top:0.8em;
-    background: transparent;
     color: black;
-    box-shadow: inset 0 0 0 2px black;
-    transform: translate3d(0, 0, 2em);
+    border:2px black solid;
     font-size:0.6em;
     font-weight:400;
-    // border-radius:10em;
-
-  }
-
-  .front1 {
-    color: black;
-    // box-shadow: inset 0 0 0 2px black;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    height:3.8em;
+    text-decoration: none !important;
   }
 }
 
@@ -235,8 +122,6 @@
     margin-top:.3em;
     text-decoration: none !important;
   }
-  
-
 
   .front {
     align-items: center !important;
@@ -260,103 +145,38 @@
 
 
 .web01{
-  .scene{
-  // margin-right:2em;
-  // margin-top:-2em;
-  // margin-bottom:4em;
-
-  }
-
-  .cube{
-    font-size:1em;
-    margin-top: -4em;
-  }
-
-  .side{
-    // width: 9.25em;
-  }
-
-  .top{
-
-  }
-
-  .front{
-
+  a{
+    top:90%;
   }
 }
 
 .web02{
-  .scene{
-  // margin-right:2em;
-  // margin-top:-2em;
-  // margin-bottom:4em;
-
+  a{
+    top:90%;
   }
 
-  .cube{
-    font-size:1em;
-    margin-top: -4em;
-  }
-
-  .side{
-    // width: 9.25em;
-  }
-
-  .top{
-
-  }
-
-  .front{
-
+  .for-images{
+    background-size: 40em;
   }
 }
 
 .web03{
-  .scene{
-  // margin-right:2em;
-  // margin-top:-2em;
-  // margin-bottom:4em;
-
-  }
-
-  .cube{
-    font-size:1em;
-    margin-top: -4em;
-  }
-
-  .side{
-    // width: 9.25em;
-  }
-
-  .top{
-
-  }
-
-  .front{
-
+  a{
+    top:90%;
   }
 }
 
 .web-1-button{
   position:fixed;
   margin-top:-2.85em;
-  // height:4.5em;
-  // margin-left:16.5%;
-  // background-color: transparent;
-  .scene{
-  // margin-right:2em;
-  // margin-top:-2em;
-  // margin-bottom:4em;
 
+  .scene{
   }
 
   .cube{
-    
-    // margin-top: -4em;
   }
 
   .side{
-    // width: 9.25em;
   }
 
   .top{
@@ -364,7 +184,6 @@
   }
 
   .front{
-    // font-size:1em;
   }
 }
 
@@ -374,108 +193,47 @@
 
 
 .web01{
-  .scene{
-  // margin-right:2em;
-  // margin-top:-2em;
-  // margin-bottom:4em;
+    .for-images{
+      height:60vh;
+      background-size: 40em;
+      margin-left:10%;
+    }
 
-  }
-
-  .cube{
-    font-size:1em;
-    margin-top: -4em;
-  }
-
-  .side{
-    // width: 9.25em;
-  }
-
-  .top{
-
-  }
-
-  .front{
-
-  }
 }
 
 .web02{
-  .scene{
-  // margin-right:2em;
-  // margin-top:-2em;
-  // margin-bottom:4em;
+    .for-images{
+      height:60vh;
+      background-size: 60em;
+      margin-left:10%;
+    }
 
-  }
-
-  .cube{
-    font-size:1em;
-    margin-top: -4em;
-  }
-
-  .side{
-    // width: 9.25em;
-  }
-
-  .top{
-
-  }
-
-  .front{
-
-  }
 }
 
 .web03{
-  .scene{
-  // margin-right:2em;
-  // margin-top:-2em;
-  // margin-bottom:4em;
+    .for-images{
+      height:60vh;
+      background-size: 40em;
+      margin-left:10%;
+    }
 
-  }
-
-  .cube{
-    font-size:1em;
-    margin-top: -4em;
-  }
-
-  .side{
-    // width: 9.25em;
-  }
-
-  .top{
-
-  }
-
-  .front{
-
-  }
 }
 
 .web-1-button{
-  // margin-top:4em;
-  // margin-left:23%;
-  .scene{
-  // margin-right:2em;
-  // margin-top:-2em;
-  // margin-bottom:4em;
 
+  .scene{
   }
 
   .cube{
-    
-    // margin-top: -4em;
   }
 
   .side{
-    // width: 9.25em;
   }
 
   .top{
-
   }
 
   .front{
-
   }
 }
 
@@ -484,62 +242,28 @@
 @media only screen and (min-width : 60em) {
 
 .web01{
-  .scene{
-  // margin-right:2em;
-  // margin-top:-2em;
-  // margin-bottom:4em;
-
-  }
-
-  .cube{
-    left: 45%;
-    font-size:1em;
-    // margin-top: -4em;
+  a{
+    font-size:0.8em;
   }
 }
 
 .web02{
-  .scene{
-  // margin-right:2em;
-  // margin-top:-2em;
-  // margin-bottom:4em;
-
-  }
-
-  .cube{
-    left: 45%;
-    font-size:1em;
-    // margin-top: -4em;
+  a{
+    font-size:0.8em;
   }
 }
 
 .web03{
-  .scene{
-  // margin-right:2em;
-  // margin-top:-2em;
-  // margin-bottom:4em;
-
-  }
-
-  .cube{
-    left: 45%;
-    font-size:1em;
-    // margin-top: -4em;
+  a{
+    font-size:0.8em;
   }
 }
 
 .web-1-button{
   .scene{
-  // margin-right:2em;
-  // margin-top:-2em;
-  // margin-bottom:4em;
-
   }
 
   .cube{
-    // left: 45%;
-    // font-size:1em;
-    // margin-top: -4em;
   }
 }
 }
