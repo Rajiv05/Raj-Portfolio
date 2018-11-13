@@ -32,6 +32,13 @@
     text-transform: uppercase;
     height:3.8em;
     text-decoration: none !important;
+    transition: 0.3s;
+
+    &:hover{
+      color: white;
+      background-color: #333333;
+      border: 2px #333333 solid;
+    }
   }
 }
 
@@ -66,6 +73,13 @@
     text-transform: uppercase;
     height:3.8em;
     text-decoration: none !important;
+    transition: 0.3s;
+
+    &:hover{
+      color: white;
+      background-color: #333333;
+      border: 2px #333333 solid;
+    }
   }
 }
 
@@ -100,6 +114,13 @@
     text-transform: uppercase;
     height:3.8em;
     text-decoration: none !important;
+    transition: 0.3s;
+
+    &:hover{
+      color: white;
+      background-color: #333333;
+      border: 2px #333333 solid;
+    }
   }
 }
 
@@ -197,6 +218,8 @@
       height:60vh;
       background-size: 40em;
       margin-left:10%;
+
+      &:hover{}
     }
 
 }
@@ -204,8 +227,10 @@
 .web02{
     .for-images{
       height:60vh;
-      background-size: 60em;
+      background-size: 40em;
       margin-left:10%;
+
+      &:hover{}
     }
 
 }
@@ -215,6 +240,8 @@
       height:60vh;
       background-size: 40em;
       margin-left:10%;
+
+      &:hover{}
     }
 
 }

@@ -35,7 +35,7 @@ $(function() {
 
         var activeLi;
 
-        var iScrollTopWithAdjustment = iScrollTop + 100;
+        var iScrollTopWithAdjustment = iScrollTop + 150;
         
         if(iScrollTopWithAdjustment<offset2){
             activeLi = $('.pure-menu-list>li:nth-child(1)');

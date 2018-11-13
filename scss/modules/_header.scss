@@ -7,7 +7,7 @@
 	.heading{
 		width:90%;
 		margin:auto;
-		padding:1em 10em 1em 0em;
+		padding:1em 0em 1em 0em;
 		margin-left:1em;
 		margin-top:5.8em;
 		// height:50vh;
@@ -18,23 +18,39 @@
 		h2{
 			font:$oswaldFont;
 			color:black;
-			font-size:1.5em;
-			padding-bottom:0.5em;
-			border-bottom:2px blue solid;
+			font-size:2em;
+			// padding-bottom:0.5em;
+			// border-bottom:2px blue solid;
 			max-width:6em;
-			width:5em;
+			// width:5em;
 			display:inline-block;
 			// line-height:2em;
+
+			&:after {
+		        content: "";
+		        display: block;
+		        width: 2em;
+		        margin: 0.5em 0;
+		        border-bottom:2px blue solid;
+		    }
 		}
 		h4{
 			font:$oswaldFont;
 			color:black;
 			z-index:1;
-			font-size:1.5em;
+			font-size:1.2em;
 			line-height:1.2em;
-			border-bottom:2px blue solid;
-			padding-bottom:0.5em;
+			// border-bottom:2px blue solid;
+			// padding-bottom:0.5em;
 			width:6em;
+
+			&:after {
+		        content: "";
+		        display: block;
+		        width: 2em;
+		        margin: 0.5em 0;
+		        border-bottom:2px blue solid;
+		    }
 		}
 
 		p{
@@ -67,10 +83,10 @@
 		}
 	}
 
-	.heading-1{
+	.heading1{
 		// padding:2em 0em 4em 0em;
 		// margin-left:2em;
-		padding-top:4em;
+		padding-top:5em;
 		width:90%;
 		margin:auto;
 		text-align:center;
@@ -103,6 +119,15 @@
 			color:grey;
 		}
 
+	}
+
+	.heading2{
+
+		h2{
+			font-size:1.5em;
+			padding-top:3em;
+			padding-bottom: none;
+		}
 	}
 
 	.heading-2{
@@ -373,11 +398,11 @@
 @media only screen and (min-width : 40em) {
 	.body{
 		// padding-top:8em;
-		margin-top:4em;
+		padding-top:4em;
 		
 
 		.heading{
-			padding:2em 0em 4em 0em;
+			// padding:2em 0em 4em 0em;
 			// margin-left:2em;
 			width:90%;
 			margin:auto;
@@ -393,13 +418,13 @@
 			// height:70vh !important;
 
 			// background-color: black;
-			background-image: url("../assets/images/Skills/Photography/DubaiAirport.jpg");
+			background-image: url("../assets/images/Skills/Photography/tech.jpg");
 	        background-position: center;
 	        background-repeat: no-repeat;
 	        background-size: cover;
 	        // background-size: 100%;
 			// margin-top:-2em;
-			height:40vh !important;
+			height:50vh !important;
 			position: relative;
 
 			&:before {
@@ -412,7 +437,7 @@
 
 			.heading-type-body{
 				position: absolute;
-				left: 8em;
+				left: 10em;
 			    top: 50%;
 			    transform: translate(-50%, -50%);
 
@@ -435,7 +460,8 @@
 					border-bottom: none;
 					padding-bottom: 0em;
 					margin-bottom: 0em;
-					font-size:1.5em;
+					font-size:1em;
+					font-weight:300;
 
 					&:after {
 			          content: "";
@@ -461,16 +487,17 @@
 			.social-icons{
 				visibility: visible;
 				position: absolute;
-				left: 90%;
+				left: 45%;
 			    top: 90%;
 			    transform: translate(-50%, -50%);
-			    width:4.9em;
+			    width:100%;
+			    text-align: right;
 
 			    a{
 			    	padding-left:1em;
 
 			    	i{
-			    		font-size:1.5em;
+			    		font-size:1em;
 			    		color: white;
 
 			    		&:hover{
@@ -597,7 +624,7 @@
 @media only screen and (min-width : 60em) {
 
 .body{
-	// margin-top:3em;
+	margin-top:5em;
 
 	.heading{
 		// padding-top:1em;
@@ -607,16 +634,22 @@
 		}
 	}
 	.banner{
-		height:70vh !important;
+		height:50vh !important;
 
 		.heading-type-body{
-			left:15em;
+			left:10em;
 
 			h2{
-				font-size:3em;
+				font-size:2em;
+				padding-bottom:none !important;
+				margin-bottom:none !important;
+				// font-weight:100;
 			}
 			h4{
-				font-size:3em;
+				padding-top:none !important;
+				margin-top:none !important;
+				font-size:1.5em;
+				font-weight:300;
 
 			}
 		}
@@ -640,6 +673,13 @@
 @media only screen and (min-width : 80em) {
 	.body{
 		padding-top:3em;
+
+		.banner{
+
+			.social-icons{
+				left: 47%;
+			}
+		}
 
 	}
 
