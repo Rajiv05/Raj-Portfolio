@@ -20,7 +20,7 @@
 			color:black;
 			font-size:2em;
 			// padding-bottom:0.5em;
-			// border-bottom:2px blue solid;
+			// border-bottom:2px $blue solid;
 			max-width:6em;
 			// width:5em;
 			display:inline-block;
@@ -31,7 +31,7 @@
 		        display: block;
 		        width: 2em;
 		        margin: 0.5em 0;
-		        border-bottom:2px blue solid;
+		        border-bottom:2px $blue solid;
 		    }
 		}
 		h4{
@@ -40,7 +40,7 @@
 			z-index:1;
 			font-size:1.2em;
 			line-height:1.2em;
-			// border-bottom:2px blue solid;
+			// border-bottom:2px $blue solid;
 			// padding-bottom:0.5em;
 			width:6em;
 
@@ -49,7 +49,7 @@
 		        display: block;
 		        width: 2em;
 		        margin: 0.5em 0;
-		        border-bottom:2px blue solid;
+		        border-bottom:2px $blue solid;
 		    }
 		}
 
@@ -83,7 +83,7 @@
 		}
 	}
 
-	.heading1{
+	.heading-1{
 		// padding:2em 0em 4em 0em;
 		// margin-left:2em;
 		padding-top:5em;
@@ -347,14 +347,14 @@
 	}
 
 	.pure-menu-item1 a:active{
-	    color:blue;
-	    border-bottom: 0.1em blue solid !important;
+	    color:$blue;
+	    border-bottom: 0.1em $blue solid !important;
 	    /*background-color: white;*/
 
 	}
 
 	.pure-menu-horizontal1 .first{
-	    // border-bottom: 0.2em blue solid;
+	    // border-bottom: 0.2em $blue solid;
 	    // padding-bottom:0.8em;
 	    // font-size:0.6em;
 	    margin-left:0;
@@ -363,7 +363,7 @@
 	}
 
 	.active3{
-	    border-bottom: 0.1em blue solid !important;
+	    border-bottom: 0.1em $blue solid !important;
 	    padding-bottom:0.8em;
 	    margin-left:0em !important;
 	    border-radius:0em;
@@ -374,7 +374,7 @@
 	}
 
 	.active2{
-	    border-bottom: 0.2em blue solid;
+	    border-bottom: 2px $blue solid;
 	    padding-bottom:0.8em;
 	    margin-left:0;
 	    border-radius:0em;
@@ -383,7 +383,7 @@
 	}
 
 	.active1{
-	    border-bottom: 0.2em blue solid !important;
+	    border-bottom: 2px $blue solid !important;
 	    padding-bottom:0.8em;
 	    margin-left:0;
 	    border-radius:0em;
@@ -451,7 +451,7 @@
 			          display: block;
 			          width: 2em;
 			          margin: 0.5em 0;
-			          border-bottom:2px blue solid;
+			          border-bottom:2px $blue solid;
 			      }
 				}
 
@@ -468,7 +468,7 @@
 			          display: block;
 			          width: 2em;
 			          margin: 0.5em 0;
-			          border-bottom:2px blue solid;
+			          border-bottom:2px $blue solid;
 			          margin-bottom:0em;
 			      	}
 				}
@@ -531,7 +531,7 @@
 				width:50%;
 				font-size:0.6em;
 				margin:auto;
-				font-style: italic;
+				// font-style: italic;
 			}
 			.photographer{
 				width:60%;

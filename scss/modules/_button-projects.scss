@@ -8,7 +8,7 @@
 
   .for-images{
     height:50vh;
-    background-image: url("../assets/images/Web-1/ipad&iphone.png");
+    background-image: url("../assets/images/Web-1/ipad&iphone.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -124,6 +124,99 @@
   }
 }
 
+.visit-website{
+  width:100%;
+  margin: auto;
+  position: relative;
+  padding:6em;
+
+  a{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width:20em;
+    padding:1em;
+    text-align: center;
+    color: black;
+    border:2px black solid;
+    font-size:0.6em;
+    font-weight:400;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    height:3.8em;
+    text-decoration: none !important;
+    transition: 0.3s;
+
+    &:hover{
+      color: white;
+      background-color: #333333;
+      border: 2px #333333 solid;
+    }
+  }
+}
+
+.prev-next{
+  width:100%;
+  margin: auto;
+  position: relative;
+  padding-top:3em;
+  margin-bottom:6em;
+  display: flex;
+
+  .prev{
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    min-width:15em;
+    max-width:20em;
+    padding:1em;
+    text-align: center;
+    color: black;
+    border-bottom:1px black solid;
+    font-size:0.6em;
+    font-weight:400;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    height:3.8em;
+    text-decoration: none !important;
+    transition: 0.3s;
+
+    &:hover{
+      // color: black;
+      // background-color: #333333;
+      border-bottom: 2px $blue solid;
+    }
+  }
+
+  .next{
+    position: absolute;
+    left: 75%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    min-width:15em;
+    max-width:20em;
+    padding:1em;
+    text-align: center;
+    color: black;
+    border-bottom:1px black solid;
+    font-size:0.6em;
+    font-weight:400;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    height:3.8em;
+    text-decoration: none !important;
+    transition: 0.3s;
+
+    &:hover{
+      // color: black;
+      // background-color: #333333;
+      border-bottom: 2px $blue solid;
+    }
+  }
+}
+
 
 .web-1-button{
   z-index:200;
@@ -132,32 +225,46 @@
   // float:right;
   width:100%;
   
-  padding-right:1em;
-  display: flex;
-  justify-content: flex-end;
+  // padding-right:1em;
+  // display: flex;
+  // justify-content: flex-end;
   // background-color: white;
-  height:0em;
+  // height:0em;
+  position: relative;
+  margin-top: -0.45em;
   // left:65%;
 
   a{
-    margin-top:.3em;
-    text-decoration: none !important;
-  }
-
-  .front {
-    align-items: center !important;
-    padding-top:0.3em;
-    padding-bottom:0.45em;
-    padding-left:1em;
-    padding-right:1em;
-    background: transparent;
-    color: blue;
-    border: 2px blue solid;
-    // transform: translate3d(0, 0, 2em);
-    font-size:0.8em;
+    position: absolute;
+    left: 87%;
+    top: 100%;
+    transform: translate(-50%, 50%);
+    width:3.5em;
+    padding:1em;
+    text-align: center;
+    color: black;
+    // border:2px black solid;
+    font-size:0.7em;
     font-weight:400;
-    border-radius:10em;
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
+    height:3.8em;
+    text-decoration: none !important;
+    transition: 0.3s;
+
+    &:hover{
+      &:after {
+        content: "";
+        display: block;
+        width: 2.6em;
+        margin: 0.5em 0;
+        border-bottom:2px $blue solid;
+      }
+      color: $blue;
+      // background-color: #333333;
+      // border-bottom: 2px $blue solid;
+      // border-radius:10em;
+    }
   }
 }
 
@@ -189,22 +296,10 @@
 
 .web-1-button{
   position:fixed;
-  margin-top:-2.85em;
+  margin-top:-0.35em;
 
-  .scene{
-  }
-
-  .cube{
-  }
-
-  .side{
-  }
-
-  .top{
-
-  }
-
-  .front{
+  a{
+    left:92%;
   }
 }
 
@@ -247,21 +342,13 @@
 }
 
 .web-1-button{
+  margin-top:-5.3em;
+  
 
-  .scene{
+  a{
+    left:92%;
   }
 
-  .cube{
-  }
-
-  .side{
-  }
-
-  .top{
-  }
-
-  .front{
-  }
 }
 
 }
@@ -286,11 +373,41 @@
   }
 }
 
-.web-1-button{
-  .scene{
-  }
-
-  .cube{
+.visit-website{
+  a{
+    font-size:0.8em;
   }
 }
+
+.prev-next{
+  .prev{
+    font-size:0.8em;
+    left:15%;
+  }
+
+  .next{
+    font-size:0.8em;
+    left:85%;
+  }
+}
+
+.web-1-button{
+}
+
+
+}
+
+@media only screen and (min-width : 60em) {
+
+  .web-1-button{
+  margin-top:-5.3em;
+  
+
+  a{
+    left:93%;
+  }
+
+}
+
+
 }
