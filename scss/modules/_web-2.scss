@@ -527,18 +527,20 @@
     }
 
     .left{
-      background-image: url("../assets/images/Web-1/usecase.png");
+      background-image: url("../assets/images/Web-2/Use_Case_Diagrams.jpg");
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
+      // background-size: 60em;
       // background-color: black;
       // flex:1 0 50%;
       left: 0px;
       margin: auto;
 
-      // img{
-      //   opacity:0;
-      // }
+      img{
+        visibility: hidden;
+
+      }
     }
 
    
@@ -552,7 +554,7 @@
   .two-web01{
 
     .left{
-      background-size: 60em;
+      
     }
 
     .right{
@@ -576,6 +578,19 @@
   //     }
   //   }
   // }
+
+  .two-web6{
+
+    .left{
+
+      background-size: 60em;
+
+      img{
+        visibility: hidden;
+
+      }
+    }
+  }
 }
 
 
@@ -599,6 +614,7 @@
   .two-web6{
 
     .left{
+       background-size: 70em;
       max-width: 80%;
     }
   }

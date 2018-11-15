@@ -60,7 +60,7 @@ nav {
 	text-align: center;
 	padding: 0;
 	height: 0;
-	transition: 1s ease all;
+	transition: 1s ease;
 	margin: 0;
 	overflow: hidden;
 	opacity: 0;
@@ -74,12 +74,21 @@ nav {
 
 		a {
 			text-decoration: none;
+			color: white !important;
 		}
 	}
 
 	.active {
 		color: #fff;
 		font-weight: 700;
+	}
+
+	.social-icons{
+
+		i{
+			color: white;
+		}
+		
 	}
 }
 
@@ -95,8 +104,10 @@ nav {
 }
 
 .nav-body{
+	color: white !important;
 	.navigation{
 		text-align:right;
+		color: white !important;
 	}
 	// margin-top:50%;
 	// padding-bottom:4em;

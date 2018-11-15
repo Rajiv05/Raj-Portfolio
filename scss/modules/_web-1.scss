@@ -420,20 +420,19 @@
     }
 
     .left{
-      // background-image: url("../assets/images/Web-1/wireframe.png");
-      // background-position: center;
-      // background-repeat: no-repeat;
-      // background-size: cover;
-      // background-color: black;
-      // flex:1 0 50%;
+      background-color: white !important;
+      background-image: url("../assets/images/Web-1/wireframe.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: black;
+      background-size: 30em;
+      flex:1 0 50%;
       left: 0px;
       width: 100%;
 
       .img1{
-        margin-top:5em;
-        padding:2em;
-        // width:80%;
-        // margin:auto;
+        visibility: hidden;
 
       }
     }
@@ -519,14 +518,15 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
+      // background-size: 80em;
       // background-color: black;
       // flex:1 0 50%;
       left: 0px;
       width: 100%;
 
-      // img{
-      //   opacity:0;
-      // }
+      img{
+        visibility: hidden;
+      }
     }
 
    
@@ -560,6 +560,20 @@
   //     }
   //   }
   // }
+
+  .web4{
+
+    .left{
+      background-size: 45em;
+    }
+  }
+
+  .web6{
+
+    .left{
+      background-size: 45em;
+    }
+  }
 }
 
 
@@ -578,5 +592,20 @@
   .web3{
     max-width:100%;
     margin:auto;
+  }
+
+  .web4{
+
+    .left{
+      background-size: 60em;
+    }
+  }
+
+  .web6{
+    .left{
+      height:100vh !important;
+       background-size: 70em;
+      // max-width: 80%;
+    }
   }
 }
